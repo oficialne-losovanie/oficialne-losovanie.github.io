@@ -1,0 +1,189 @@
+.site-cookies {
+  padding: 10px 0;
+}
+.zc_top_mobil_utile_full {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+
+.site-header .navbar-brand {
+	position: relative;
+	/*margin-left: 176px;*/
+	margin-left: 134px;
+	margin-top: 5px;
+	width: 332px;
+	height: 62px;
+	background-size: contain;
+}
+.site-header .navbar-brand::before {
+	content: '';
+	position: absolute;
+    top: -22px;
+    /*left: -240px;*/
+    left: -213px;
+    z-index: -1;
+	display: block;
+	width: 253px;
+    height: 103px;
+	background: url(../images/logo-10ani.png) no-repeat 0 0;
+}
+@media screen and (max-width: 1245px) and (min-width: 1200px)  {
+	.site-header .navbar-brand {
+		width: 287px;
+	}
+}
+
+.site-nav .navbar-brand {
+	position: relative;
+}
+.site-nav .navbar-brand::before {
+	content: '';
+	position: absolute;
+    top: -8px;
+    left: 50%;
+    z-index: -1;
+    margin-left: -166px;
+	display: block;
+	width: 109px;
+    height: 44px;
+	background: url(../images/logo-10ani.png) no-repeat 0 0/contain;
+}
+
+.navbar-nav .nav-item+.nav-item, .navbar-nav .nav-link+.nav-link {
+	margin-left: .7rem;
+}
+
+
+
+.banner-looksport {
+	display: block;
+	margin-bottom: 1.4rem;
+	padding: 7px 15px;
+	background-color: #cd212a;
+	border-left: 15px solid #791217;
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.banner-looksport:hover {
+	color: #fff;
+}
+@media (min-width: 665px) {
+	.banner-looksport {
+		width: 100%;
+		max-width: 694px;
+		height: 46px;
+		background: url(../images/banner/banner-looksport.jpg) no-repeat 0 0/contain;
+		border: none;
+		text-indent: -10000px;
+	}
+}
+
+.banner-lookplus {
+	display: block;
+	margin-bottom: 1.4rem;
+	padding: 7px 15px;
+	background-color: #faa21b;
+	border-left: 15px solid #f06d27;
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.banner-lookplus:hover {
+	color: #fff;
+}
+@media (min-width: 665px) {
+	.banner-lookplus {
+		width: 100%;
+		max-width: 695px;
+		height: 46px;
+		background: url(../images/banner/banner-lookplus.jpg) no-repeat 0 0/contain;
+		border: none;
+		text-indent: -10000px;
+	}
+}
+
+.banner-lookmedica {
+	display: block;
+	margin-bottom: 1.4rem;
+	padding: 7px 15px;
+	background-color: #128382;
+	border-left: 15px solid #144d4e;
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.banner-lookmedica:hover {
+	color: #fff;
+}
+@media (min-width: 665px) {
+	.banner-lookmedica {
+		width: 100%;
+		max-width: 695px;
+		height: 46px;
+		background: url(../images/banner/banner-lookmedica.jpg) no-repeat 0 0/contain;
+		border: none;
+		text-indent: -10000px;
+	}
+}
+
+.banner-clevermedia {
+	display: block;
+	margin: 1.4rem 0;
+	padding: 20px;
+	background: #f06d27;
+	color: #fff;
+	font-size: 24px;
+	line-height: 38px;
+}
+.banner-clevermedia:hover {
+	color: #fff;
+}
+.banner-clevermedia .logo-clevermedia {
+	display: block;
+	margin-left: auto;
+	width: 186px;
+	height: 33px;
+	background: url(../images/banner/logo-clevermedia.png) no-repeat 0 0;
+	text-indent: -10000px;
+}
+@media (min-width: 665px) {
+	.banner-clevermedia {
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 48px;
+	}
+}
+
+.banner-profit {
+	display: block;
+	margin-bottom: 1.4rem;
+	padding: 7px 15px;
+	background-color: #373895;
+	border-left: 15px solid #2c296c;
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.banner-profit:hover {
+	color: #fff;
+}
+@media (min-width: 665px) {
+	.banner-profit {
+		width: 100%;
+		max-width: 695px;
+		height: 46px;
+		background: url(../images/banner/banner-profit.jpg) no-repeat 0 0/contain;
+		border: none;
+		text-indent: -10000px;
+	}
+}
